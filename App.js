@@ -36,7 +36,7 @@ const RootContainer = createAppContainer(RootStack);
 
 const App: () => React$Node = () => {
   return (
-    <RootContainer />
+    <RootContainer style={styles.container} />
   );
 };
 
